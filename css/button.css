@@ -1,0 +1,31 @@
+/*Flecha enlaces ancla cabecera*/
+
+.Arrow-down::before{
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #000000;
+    margin: auto;
+    padding: 0 9.375rem;
+}
+.Arrow-down-svg{
+    width: 1.875rem;
+    margin: 1.25rem auto;
+}
+
+
+/*Botón enlaces*/
+.Button{
+    padding: .625rem 2.5rem;
+    background-color: white;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0 #806691;
+    transition: box-shadow 0.5s ease;
+
+    font-weight: 700;
+    line-height: 1.3em;
+ 
+}
+.Button:hover{
+    box-shadow: 0 0 0 white;
+}

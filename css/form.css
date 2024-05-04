@@ -1,0 +1,28 @@
+.Contact-form{
+}
+.Contact-ul{
+
+}
+.Contact-li{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+.Contact-label{
+    font-size: .875rem;
+}
+
+.Contact-input{
+    width: 100%;
+    border: 2px solid var(--color-black);
+    margin: auto auto .625rem auto;
+    padding: .3125rem 0;
+
+}
+.Contact-textarea{
+    width: 100%;
+    border: 2px solid var(--color-black);
+    margin: auto auto .625rem auto;
+}

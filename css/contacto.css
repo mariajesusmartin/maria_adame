@@ -1,0 +1,122 @@
+
+.Contact{
+    width: 100%;
+    margin: auto;
+    padding: 6.25rem 0;
+    border-bottom: 2px solid var(--color-black);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-container{
+    width: 80%;
+    text-align: center;
+}
+.Contact-h1{
+    font-size: var(--font-h1);
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.Contact-icon{
+    width: 8%;
+    margin: 1.875rem auto 6.25rem auto;
+}
+.Contact-rect{
+    fill: var(--color-yellow);
+}
+
+.Container{
+    width: 100%;
+    height: 100%;
+    padding: 6.25rem 0;
+    background-color: var(--color-yellow);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+
+}
+.Container-article{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+.Container-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3.125rem;
+    padding: 3.125rem;
+    border: 2px solid var(--color-black);
+}
+.Container-text{
+    
+}
+.Container-h3{
+    font-size: var(--font-h);
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.Container-p{
+    margin: 1.875rem auto auto auto;
+}
+
+.Container-picture{
+    width: 80%;
+}
+
+.Container-img{
+    height: 18.75rem;
+    border: 2px solid var(--color-black);
+    object-fit: cover;
+}
+
+@media (max-width:960px){
+    .Contact-icon{
+        width: 13%;
+    }
+    .Contact-img{
+        height: 15.625rem;
+    }
+}
+
+@media (max-width: 768px){
+    .Contact-icon{
+        width: 18%;
+    }
+
+    .Container-wrapper{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .Container-img{
+        height: 12.5rem;
+    }
+    .Contact-h1{
+        font-size: 3.125rem;
+    }
+}
+@media (max-width: 480px){
+    .Contact-icon{
+        width: 23%;
+    }
+    .Contact-img{
+        height: 9.375rem;
+    }
+}
+
+/* Adaptación a pantallas grandes con max-width*/
+
+@media (min-width: 2000px){
+    body{
+        max-width: 2400px;
+        margin: auto;
+        border-left: 2px solid var(--color-black);
+        border-right: 2px solid var(--color-black);
+    }
+}
+
