@@ -4,10 +4,10 @@
 const aboutImg = document.querySelector('.About-li--close')
 
 aboutImg.addEventListener('mouseover', function(){
-    aboutImg.style.opacity = `0`
+    aboutImg.style.opacity = `1`
 })
 aboutImg.addEventListener('mouseout' , function(){
-    aboutImg.style.opacity = `1`
+    aboutImg.style.opacity = `0`
 })
 
 
