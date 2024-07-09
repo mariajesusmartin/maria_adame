@@ -26,6 +26,16 @@
 }
 .Proyects-rect{
     fill: var(--color-yellow);
+    animation: yellowsquare .5s ease 1 0s backwards;
+}
+
+@keyframes yellowsquare {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
 }
 .Proyects-p{
     margin: 1.875rem 0;

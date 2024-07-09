@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>maría adame</title>
+    <title>María Adame - Web designer y Graphic designer</title>
+    <meta name="title" content="María Adame - Web designer y Graphic designer" />
+    <meta name="description" content="Te ayudo a hacer de tus diseños, tanto a nivel web como a nivel gráfico, un lugar especial y acogedor, donde el usuario quiera entrar." />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -13,6 +16,8 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/footer.css">
+
+    <script src="js/index.js" defer></script>
     
 </head>
 <body>
@@ -66,17 +71,28 @@
 
     <!-- Sección con enlace a 'Sobre mí' -->
     <article class="About" id="container">
-        <picture>
-            <source srcset="assets/flowers/flores-amarillas-y-cara-cuadrada.webp" type="image/jpg">
-            <img src="assets/flowers/flores-amarillas-y-cara-cuadrada.webp" alt="Foto con flores amarillas en la cara" class="About-img" loading="lazy">
-        </picture>
+        <ul class="About-ul">
+            <li class="About-li ">
+                <picture>
+                    <source srcset="assets/flowers/flores-amarillas-ojos-cerrados-cuadrada.webp" type="image/jpg">
+                    <img src="assets/flowers/flores-amarillas-ojos-cerrados-cuadrada.webp" alt="Foto con flores amarillas en la cara" class="About-img" loading="lazy">
+                </picture>
+            </li>
+            <li class="About-li About-li--close">
+                <picture>
+                    <source srcset="assets/flowers/flores-amarillas-y-cara-cuadrada.webp" type="image/jpg">
+                    <img src="assets/flowers/flores-amarillas-y-cara-cuadrada.webp" alt="Foto con flores amarillas en la cara" class="About-img" loading="lazy">
+                </picture>
+            </li>
+
+        </ul>
         <div class="About-text">
-            <h3 class="About-h3">¡hola!, soy María Jesús</h3>
+            <h2 class="About-h2">¡hola!, soy María Jesús</h2>
             <p class="About-p">Me considero una apasionada por el diseño web y gráfico. Actualmente busco nuevos retos que me permitan crecer principalmente en el ámbito del diseño web.</p>
             <p class="About-p">A lo largo de todo el portfolio web, te darás cuenta de que mi marca personal realmente es maría adame, ¿te interesa saber por qué?</p>
-            <button class="About-button Button">
+            <div class="About-button Button">
                 <a href="sobremi.html" title="Ir a Sobre mí">conóceme</a>
-            </button>
+            </div>
         </div>
     </article>
 
@@ -88,8 +104,8 @@
                 <h2 class="Proyect-h2">web designer</h2>
                 <p class="Proyect-p">En cada proyecto de diseño web disfruto, ya no solo por el crecimiento profesional que me genera, sino por la satisfacción de ir dando pasos dentro de él.</p>
             </div>
-            <div class="Proyect-bloque Proyect-bloque--top" >
-                <ul class="Proyect-ul">
+            <div class="Proyect-bloque Proyect-bloque--border" >
+                <ul class="Proyect-ul Proyect-ul--web">
                     <li class="Proyect-li">
                         <picture>
                             <source srcset="assets/proyects/web-designer-stock-mobile.webp" type="image/jpg" media="(max-width:768px)">
@@ -110,45 +126,33 @@
                 <h2 class="Proyect-h2">graphic designer</h2>
                 <p class="Proyect-p">Los años de experiencia en diseño gráfico me han aportado soltura a la hora de crear e imaginar nuevas formas que pueden hacer de un diseño algo espectacular.</p>
             </div>
-            <div class="Proyecto-bloque Proyect-bloque--bottom">
-                <ul class="Proyect-ul">
-                    <li class="Proyect-li Proyect-li--width">
-                        <picture>
-                            <source srcset="assets/proyects/frutas-borrero-ojuelos-mobile.webp" type="image/jpg" media="(max-width:768px)">
-                            <img class="Proyect-img" src="assets/proyects/frutas-borrero-ojuelos.jpg" alt="Caja con el logotipo de la empresa Frutas Borrero Ojuelos" loading="lazy">
-                        </picture>
-                    </li>
-                    <li class="Proyect-li Proyect-li--width">
+            <div class="Proyect-bloque Proyect-bloque--border">
+                <ul class="Proyect-ul Proyect-ul--graphic">
+                    <li class="Proyect-li Proyect-li--graphic">
                         <picture>
                             <source srcset="assets/proyects/centro-tierra-mobile.webp" type="image/jpg" media="(max-width:768px)">
                             <img class="Proyect-img" src="assets/proyects/centro-tierra.jpg" alt="Tarjeta de visita con el logotipo del Centro Tierra" loading="lazy">
                         </picture>
                     </li>
-                    <li class="Proyect-li Proyect-li--width">
+                    <li class="Proyect-li Proyect-li--graphic">
                         <picture>
                             <source srcset="assets/proyects/packsystem-mobile.webp" type="image/jpg" media="(max-width:768px)">
                             <img class="Proyect-img" src="assets/proyects/packsystem.jpg" alt="Bolsa con el logotipo de la empresa Packsystem" loading="lazy">
                         </picture>
                     </li>
-                    <li class="Proyect-li Proyect-li--width">
-                        <picture>
-                            <source srcset="assets/proyects/maria-adame-marca-personal-mobile.webp" type="image/jpg" media="(max-width:768px)">
-                            <img class="Proyect-img" src="assets/proyects/maria-adame-marca-personal.jpg" alt="Tarjetas de visita con el logotipo de la marca personal maria adame" loading="lazy">
-                        </picture>
-                    </li>
                 </ul>
             </div>
         </section>
-        <button class="Proyect-button Button">
+        <div class="Proyect-button Button">
             <a href="proyectos.html" title="Ir a Proyectos">proyectos</a>
-        </button>
+        </div>
     </main>
 
     <!-- Sección con contacto directo -->
 
     <div class="Contact">
         <div class="Contact-text">
-            <h6 class="Contact-h6">¡envíame un mensaje!</h6>
+            <h3 class="Contact-h3">¡envíame un mensaje!</h3>
             <p class="Contact-p">Si te apetece conocer un poco más sobre mí, no dudes en rellenar el formulario. Estaré encantada de leerte.</p>
         </div>
         <form action="#" method="post" class="Contact-form">
@@ -166,7 +170,7 @@
                     <textarea class="Contact-textarea" name="mensaje" id="message" cols="30" rows="10"></textarea>
                 </li>
             </ul>
-            <button class="Contact-button Button" type="submit">enviar</button>
+            <button class="Contact-button Button" type="submit" title="Enviar formulario">enviar</button>
         </form>
     </div>
 

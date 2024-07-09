@@ -1,5 +1,3 @@
-
-
 .Home{
     position: relative;
     border-bottom: 2px solid var(--color-black);
@@ -49,13 +47,24 @@
     align-items: center;
     gap: 4.375rem;
 }
+.About-ul{
+    position: relative;
+}
+.About-li{
+    position: absolute;
+}
+.About-li--close{
+    position: relative;
+    opacity: 1;
+}
 .About-img{
     width: 100%;
     height: 100%;
     border: 2px solid var(--color-black);
+    
 }
 
-.About-h3{
+.About-h2{
     font-size: var(--font-h);
     font-weight: 700;
     line-height: 1.3em;
@@ -80,7 +89,6 @@
 }
 .Proyect-section{
     width: 80%;
-
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 3.125rem;
@@ -106,31 +114,34 @@
     padding: 1.875rem 0 0 0;    
 }
 
-.Proyect-bloque--top{
-    width: 200%;
-    height: 100%;
-    overflow: hidden;   
+.Proyect-bloque--border{
+    border: 2px solid var(--color-black);
 }
 
-.Proyect-bloque--bottom{
-    width: 400%;
-    height: 100%;   
-}
 
 .Proyect-ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid var(--color-black);
+    overflow: hidden;
 }
 
-.Proyect-li{
+.Proyect-ul--web{
+    width: 200%;
+    height: 100%;
+    transform: translateX(0%);
+    transition: transform .5s ease;
+}
+.Proyect-ul--graphic{
+    width: 200%;
+    height: 100%;
+    transform: translateX(0%);
+    transition: transform .5s ease;
+}
+
+.Proyect-li , .Proyect-li--graphic{
     width: calc(100%/2);
-}
-.Proyect-li--width{
-    width: calc(100%/4);
-
 }
 
 .Contact{
@@ -142,7 +153,7 @@
     gap: 3.125rem;
 
 }
-.Contact-h6{
+.Contact-h3{
     font-size: var(--font-h);
     font-weight: 700;
     line-height: 1.3em;

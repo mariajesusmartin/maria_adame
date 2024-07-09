@@ -27,7 +27,19 @@
 
 .Logo-yellow{
     fill: var(--color-yellow);
+    animation: yellowletter .5s ease 1 0s backwards;
 }
+
+@keyframes yellowletter {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+
 .About-text{
     margin: 1.875rem auto 6.25rem auto;
 }
@@ -127,6 +139,10 @@
 }
 .Proyects-p{
     margin: 3.125rem auto;
+}
+
+.Container-svg--none{
+    display: none;
 }
 
 

@@ -25,6 +25,16 @@
 }
 .Contact-rect{
     fill: var(--color-yellow);
+    animation: yellowsquare .5s ease 1 0s backwards;
+}
+
+@keyframes yellowsquare {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
 }
 
 .Container{
@@ -53,10 +63,8 @@
     padding: 3.125rem;
     border: 2px solid var(--color-black);
 }
-.Container-text{
-    
-}
-.Container-h3{
+
+.Container-h2{
     font-size: var(--font-h);
     font-weight: 700;
     line-height: 1.3em;
