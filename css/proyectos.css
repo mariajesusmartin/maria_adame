@@ -93,6 +93,7 @@
     position: relative;
     top: 0;
     left: 0;
+    border: 2px solid var(--color-black);
 }
 
 .Container-img{
