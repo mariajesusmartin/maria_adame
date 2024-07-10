@@ -1,0 +1,43 @@
+.Graphic{
+    width: 80%;
+    margin: auto;
+    padding: 6.25rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3.125rem;
+}
+.Graphic-img{
+    box-shadow: 1px 1px .625rem var(--color-black);
+}
+
+.Graphic-h2{
+    font-size: var(--font-h);
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.Graphic-p{
+    padding: 1.875rem 0 0 0;    
+}
+
+@media (max-width:480px){
+    .Graphic-h2{
+        font-size: var(--font-h-mobile);
+    }
+}
+@media (max-width:768px){
+    .Graphic{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+/* Adaptación a pantallas grandes con max-width*/
+
+@media (min-width: 2000px){
+    body{
+        max-width: 2400px;
+        margin: auto;
+        border-left: 2px solid var(--color-black);
+        border-right: 2px solid var(--color-black);
+    }
+}

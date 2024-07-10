@@ -30,3 +30,28 @@
 .Button:hover{
     box-shadow: 0 0 0 white;
 }
+
+/*Botón que vuelve a todos los proyectos*/
+.Return{
+    width: 80%;
+    padding: 0 0 6.25rem 0;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+}
+.Return-svg{
+    width: 1.875rem;
+}
+.Return-svg:hover{
+    fill: #806691;
+}
+
+@media (max-width:768px){
+    .Return{
+        justify-content: center;
+    }
+}
