@@ -1,8 +1,4 @@
-.Contact-form{
-}
-.Contact-ul{
 
-}
 .Contact-li{
     display: flex;
     flex-flow: column nowrap;
@@ -25,4 +21,8 @@
     width: 100%;
     border: 2px solid var(--color-black);
     margin: auto auto .625rem auto;
+}
+
+.Contact-button{
+    color: var(--color-black);
 }
