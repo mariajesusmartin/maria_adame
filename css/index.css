@@ -55,7 +55,7 @@
 }
 .About-li--close{
     position: relative;
-    opacity: 1;
+    opacity: 0;
 }
 .About-img{
     width: 100%;

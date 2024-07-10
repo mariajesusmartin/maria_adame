@@ -113,6 +113,7 @@
 
 .Container-svg{
     width: 1.875rem;
+    fill: var(--color-black);
 }
 
 .Container-button--close{
