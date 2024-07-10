@@ -123,6 +123,7 @@
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
+
 }
 
 .Proyect-ul--web{
@@ -160,6 +161,12 @@
     padding: 1.875rem 0 0 0;
 }
 
+@media (max-width:480px){
+    .About-h2, .Proyect-h2, .Contact-h3{
+        font-size: var(--font-h-mobile);
+    }
+}
+
 
 @media (max-width:768px){
     .About{
@@ -181,6 +188,15 @@
     .Proyect-section{
         grid-template-columns: 1fr;
     }
+    .Proyect-ul--web{
+        transform: translateX(25%);
+        transition: transform .5s ease;
+    }
+    .Proyect-ul--graphic{
+        transform: translateX(25%);
+        transition: transform .5s ease;
+    }
+    
     .Proyect-text{
         width: 100%;
     }

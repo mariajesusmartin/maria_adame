@@ -125,9 +125,20 @@
     transition: all .5s ease;
 }
 
-@media (max-width:960px){
+@media (max-width: 480px){
     .Proyects-icon{
-        width: 20%;
+        width: 30%;
+    }
+    .Container-h2 {
+        font-size: var(--font-h-mobile);
+    }
+    .Container-h3{
+        font-size: 1.5625rem;
+    }
+}
+@media (max-width: 757px){
+    .Container-ul{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -139,18 +150,13 @@
         font-size: 3.125rem;
     }
 }
-@media (max-width: 757px){
-    .Container-ul{
-        grid-template-columns: 1fr;
-    }
 
-}
-
-@media (max-width: 480px){
+@media (max-width:960px){
     .Proyects-icon{
-        width: 30%;
+        width: 20%;
     }
 }
+
 
 /* Adaptación a pantallas grandes con max-width*/
 

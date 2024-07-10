@@ -97,27 +97,55 @@
     line-height: 1.3em;
 }
 
+.Container-buttons{
+    position: relative;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Container-button{
+    position: absolute;
+    padding: 0 .625rem 0 0;
+    background-color: white;
+}
+
 .Container-svg{
     width: 1.875rem;
 }
 
-.Container-svg--up{
-    display: none;
+.Container-button--close{
+    position: absolute;
+    background-color: white;
+}
+
+.Container-button--open.isActive{
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .5s ease;
 }
 
 .Container-text{
     height: 0;
     padding: 0;
     overflow: hidden;
-    transform: all .5s ease;
+    transition: all .5s ease;
+
+}
+.Container-text.isActive{
+    padding: 1.25rem 0;
+    height: auto;
+    transition: all .5s ease;
+
 }
 .Container-p{
     margin: auto auto 1.875rem auto;
 }
 
-.Container-text.isActive{
-    padding: 1.25rem 0;
-    height: auto;
+.Container-bullet{
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 .Proyects{
@@ -144,6 +172,9 @@
 .Container-svg--none{
     display: none;
 }
+.Svg{
+    display: none;
+}
 
 
 @media (max-width: 480px){
@@ -153,11 +184,17 @@
     .Container-img{
         height: 12.5rem;
     }
+    .Container-h3, .Proyects-h3{
+        font-size: var(--font-h-mobile);
+    }
 }
 
 @media (max-width:768px){
     .Container-img{
         height: 18.75rem;
+    }
+    .Container-h3--padding{
+        padding: 0 2.5rem 0 0;
     }
 }
 
