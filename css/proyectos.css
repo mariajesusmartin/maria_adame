@@ -135,7 +135,7 @@
 
 @media (max-width: 480px){
     .Proyects-icon{
-        width: 30%;
+        width: 50%;
     }
     .Container-h2 {
         font-size: var(--font-h-mobile);
