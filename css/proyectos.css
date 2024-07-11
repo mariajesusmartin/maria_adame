@@ -13,7 +13,7 @@
 }
 .Proyects-container{
     width: 80%;
-    text-align: center ;    
+    text-align: center;    
 }
 .Proyects-h1{
     font-size: var(--font-h1);
@@ -120,7 +120,8 @@
     background-color: rgba(0,0,0,0.7);
     transition: background-color .5s ease;
 }
-.Container-h3{  
+.Container-h3{ 
+    padding: 0 1.875rem;
     font-size: 1.875rem;
     font-weight: 700;
     line-height: 1.3em;  
@@ -133,18 +134,18 @@
     transition: transform .5s ease;
 }
 
-@media (max-width: 480px){
+@media (max-width:480px){
     .Proyects-icon{
-        width: 50%;
+        width: 30%;
     }
     .Container-h2 {
         font-size: var(--font-h-mobile);
     }
     .Container-h3{
-        font-size: 1.5625rem;
+        font-size:1.5625rem;
     }
 }
-@media (max-width: 757px){
+@media (max-width:757px){
     .Container-ul{
         grid-template-columns: 1fr;
     }
