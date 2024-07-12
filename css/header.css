@@ -36,7 +36,7 @@ Estructura:
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    content: center;
+    align-items: center;
     gap: 1.25rem;
 }
 
