@@ -1,0 +1,7 @@
+//Caching schema
+<FilesMatch "\.(jpg|webp|png|mp4|css|js|svg)$">
+Header set Cache-Control "max-age=321408000"
+</FilesMatch>
+
+//Custom 404 errors
+ErrorDocument 404 404.html
