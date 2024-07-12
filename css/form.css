@@ -1,4 +1,17 @@
+/* 
+form.css
+- Formulario de contacto
+*/
 
+/* Formulario de contacto
+Descripción: estilos para los formularios de contacto
+Estructura: 
+- Contact-li
+- Contact-label
+- Contact-input
+- Contact-textarea
+- Contact-button
+*/
 .Contact-li{
     display: flex;
     flex-flow: column nowrap;
@@ -26,3 +39,5 @@
 .Contact-button{
     color: var(--color-black);
 }
+
+/* Formulario de contacto */

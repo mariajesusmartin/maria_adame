@@ -1,6 +1,20 @@
+/* 
+footer.css
+- Footer general
+- Responsive
+*/
+
+/* Footer general
+Descripción: estilos para el footer a nivel general
+Estructura: 
+- Footer
+- Footer-copy
+- Footer-img
+- Footer-ul
+*/
 .Footer{
     background-color: var(--color-black);
-    color: white;
+    color: var(--color-white);
     padding: 70px 40px ;
 
     display: grid;
@@ -23,6 +37,14 @@
     gap: 1.25rem;
 }
 
+/* Footer general */
+
+/* Responsive
+Descripción: estilos para adaptar el contenido a responsive
+Estructura: 
+- Pantallas con max-width 768px
+- Pantallas grandes con min-width 1328px
+*/
 @media (max-width: 768px){
     .Footer{
         grid-template-columns: 1fr;
@@ -44,3 +66,5 @@
         width: 25%;
     }
 }
+
+/* Responsive */

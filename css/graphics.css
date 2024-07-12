@@ -1,3 +1,17 @@
+/* 
+graphics.css
+- Secciones principales de las páginas de proyecto
+- Responsive
+*/
+
+/* Secciones principales de las páginas de proyecto
+Descripción: estilos para secciones principales de cada página de proyecto
+Estructura: 
+- Graphic
+- Graphic-img
+- Graphic-h2
+- Graphic-p
+*/
 .Graphic{
     width: 80%;
     margin: auto;
@@ -18,7 +32,15 @@
 .Graphic-p{
     padding: 1.875rem 0 0 0;    
 }
+/* Secciones principales de las páginas de proyecto */
 
+/* Responsive
+Descripción: estilos para adaptar el contenido a responsive
+Estructura: 
+- Pantallas con max-width 480px
+- Pantallas con max-width 768px
+- Pantallas grandescon min-width 2000px
+*/
 @media (max-width:480px){
     .Graphic-h2{
         font-size: var(--font-h-mobile);
@@ -41,3 +63,5 @@
         border-right: 2px solid var(--color-black);
     }
 }
+
+/* Responsive */

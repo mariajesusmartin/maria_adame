@@ -1,4 +1,22 @@
+/* 
+proyectos.css
+- Sección superior .Proyects
+- Sección informacion sobre proyectos .Container
+- Responsive
+*/
 
+/* Sección superior
+Descripción: estilos para la sección que encontramos abajo de la cabecera
+Estrutura:
+- Proyects
+- Proyects-container
+- Proyects-h1
+- Proyects-icon
+- Proyects-rect
+- @keyframes
+- Proyects-p
+- Proyects-text
+*/
 .Proyects{
     width: 100%;
     margin: auto;
@@ -42,9 +60,26 @@
 }
 .Proyects-text{
     margin: 1.875rem auto 6.25rem auto;
-
 }
+/* Sección superior */
 
+
+/* Sección informacion sobre proyectos
+Descripción: estilo para la sección de proyectos principal
+Estructura:
+- Container
+- Container-bg
+- Container-wrapper
+- Container-h2
+- Container-ul
+- Container-li
+- Container-proyect
+- Container-img
+- Container-text
+    - Container-text.isActive
+- Container-h3
+    - Container-h3.isActive
+*/
 .Container{
     width: 100%;
     background-color: var(--color-yellow);
@@ -104,7 +139,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.3);
-    color: white;
+    color: var(--color-white);
     position: absolute;
     inset: 0;
 
@@ -133,7 +168,17 @@
     transform: scale(1.1);
     transition: transform .5s ease;
 }
+/* Sección informacion sobre proyectos */
 
+/* Responsive
+Descripción: estilos para adaptar el contenido a responsive
+Estructura: 
+- Pantallas con max-width 480px
+- Pantallas con max-width 757px
+- Pantallas con max-width 768px
+- Pantallas con max-width 960px
+- Pantallas grandescon min-width 2000px
+*/
 @media (max-width:480px){
     .Proyects-icon{
         width: 30%;
@@ -167,9 +212,6 @@
 }
 
 
-/* Adaptación a pantallas grandes con max-width*/
-
-
 @media (min-width: 2000px){
     body{
         max-width: 2400px;
@@ -178,3 +220,5 @@
         border-right: 2px solid var(--color-black);
     }
 }
+
+/* Responsive */

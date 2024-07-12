@@ -1,3 +1,12 @@
+<!-- 
+ Descripción: Este archivo HTML contiene información sobre proyectos que forman parte del portfolio.
+ Estructura general:
+    - Encabezado
+    - Barra de navegación
+    - Contenido principal
+    - Pie de página
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,19 +28,18 @@
     <script src="js/proyectos.js" defer></script>
 </head>
 <body>
+
+    <!-- Cabecera del sitio web
+        Descripción: contiene logotipo y menú de navegación 
+    -->
     <header class="Header">
         <a href="index.html" title="Ir a la página de inicio">
             <svg class="Header-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
-                <path d="M1039.7,472.2c-26.1-45.8-60.4-81.5-101.9-106.2c-41.6-24.8-86.9-37.3-134.4-37.3c-48.2,0-90.3,9.1-125.2,27
-                    c-34.4,17.7-62.6,38.7-83.9,62.5c-13.1,14.6-24.1,28-32.9,40.1c-22.6-37.5-52-67.7-87.7-90c-42.2-26.3-88.7-39.6-138.2-39.6
-                    c-60.3,0-109.7,13.8-146.8,40.9c-21.2,15.4-39.2,31.6-53.9,48.3v-77.9H0.6v735h134.3V638.2c0-59.6,17-104.3,52-136.6
-                    C222.2,468.9,263,453,311.5,453c46.2,0,83.7,16.3,114.7,49.9c30.8,33.4,46.4,78.5,46.4,133.9v438.2h134.3V638.2
-                    c0-59.6,17-104.2,52-136.6C694.3,468.9,735,453,783.6,453c46.2,0,83.7,16.3,114.7,49.9c30.8,33.4,46.4,78.5,46.4,133.9v438.2H1079
-                    v-441C1079,572.4,1065.8,518,1039.7,472.2z"/>
-                <rect class="Header-rect" y="5.1" width="1080" height="168.2"/>
+                <use xlink:href="#Logo-m"/>
             </svg>
         </a>
+        <!-- Menú de navegación -->
         <nav class="Header-nav">
             <ul class="Header-ul">
                 <li class="Header-li">
@@ -47,47 +55,17 @@
         </nav>
     </header>
 
+    <!-- Sección superior
+        Descripción: en esta sección hemos añadido el título principal, una ilustración relacionada con este sitio y un texto explicativo. Justo después encontramos un enlace en forma de flecha que nos llevará otra parte del HTML
+    -->
     <section class="Proyects">
+        <!-- Sección con título principal, logotipo y texto explicativo -->
         <div class="Proyects-container">
             <h1 class="Proyects-h1">proyectos</h1>
             <h2 class="Proyects-h2">
                 <svg class="Proyects-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
-                    <rect class="Proyects-rect" x="74" y="217" width="966" height="679"/>
-                    <path d="M109.6,636.1v142.6H253V636.1H109.6z M245.5,771.1H117.2V643.6h128.3V771.1z"/>
-                    <path d="M262.4,636.1v142.6h143.4V636.1H262.4z M398.3,771.1H270V643.6h128.3V771.1z"/>
-                    <path d="M109.6,323.2v142.6h103h165.6H407V323.2H109.6z M153.5,458.2l48.8-59.6l32.6,39.9l-16.1,19.7H153.5z M228.5,458.2
-                        l66.9-81.8l66.9,81.8H228.5z M399.5,458.2h-27.4l-76.6-93.7l-55.7,68.1l-37.5-45.9l-58.5,71.6h-26.6V330.7h282.3V458.2z"/>
-                    <path d="M981.7,162.8H513.2V35h-11.3v127.8H16.4V842H394l-15.7,77.6H328v26.7h173.8v98.7h11.3v-98.7h166.6v-26.7h-55.1L608.9,842
-                        h372.8V162.8z M501.9,182.2v65.4H295.2l-50.9,38.8H35.8V182.2H501.9z M35.8,822.6V293.9h211.1l50.9-38.8h204.1v567.4H35.8z
-                        M962.3,822.6H513.2V182.2h449.1V822.6z"/>
-                    <circle cx="73.4" cy="232" r="12.1"/>
-                    <circle cx="146.1" cy="232" r="12.1"/>
-                    <circle cx="218.9" cy="232" r="12.1"/>
-                    <polygon points="89.3,522 83.9,516.7 60.9,539.7 83.2,562.1 88.6,556.7 71.6,539.7 	"/>
-                    <polygon points="425.4,516.7 420.1,522 437.8,539.7 420.8,556.7 426.1,562.1 448.5,539.7 	"/>
-                    <rect x="114.6" y="499.8" width="288.6" height="7.5"/>
-                    <rect x="114.6" y="526.5" width="288.6" height="7.5"/>
-                    <rect x="114.6" y="553.2" width="288.6" height="7.5"/>
-                    <rect x="172.8" y="579.9" width="172.2" height="7.5"/>
-                    <path d="M689,353.7h-28.3l-5.2,14.4h-8.9l23.5-64.5h9.8l23.4,64.5h-8.9L689,353.7z M686.6,346.8L674.9,314l-11.7,32.8H686.6z"/>
-                    <path d="M752.1,408.3c0.3-0.8,0.4-1.7,0.4-2.6c0-3.4-2.2-6.4-5.3-7.4v-125c3.1-1,5.3-3.9,5.3-7.4c0-4.3-3.5-7.8-7.8-7.8
-                        c-3.4,0-6.4,2.2-7.4,5.3h-125c-1-3.1-3.9-5.3-7.4-5.3c-4.3,0-7.8,3.5-7.8,7.8c0,3.4,2.2,6.4,5.3,7.4v125c-3.1,1-5.3,3.9-5.3,7.4
-                        c0,0.9,0.2,1.8,0.4,2.6c-34.6,24.9-55.1,64.6-55.1,107.5c0,73,59.4,132.3,132.3,132.3s132.3-59.4,132.3-132.3
-                        C807.2,472.8,786.7,433.1,752.1,408.3z M612.4,403.3c-0.8-2.3-2.6-4.2-4.9-4.9v-125c2.3-0.8,4.2-2.6,4.9-4.9h125
-                        c0.8,2.3,2.6,4.2,4.9,4.9v125c-2.3,0.8-4.2,2.6-4.9,4.9H612.4z M674.9,640.5c-68.8,0-124.8-56-124.8-124.8
-                        c0-41.1,19.9-79,53.5-102.4c0.5,0.1,0.9,0.1,1.4,0.1c3.4,0,6.4-2.2,7.4-5.3h125c1,3.1,3.9,5.3,7.4,5.3c0.5,0,1-0.1,1.4-0.1
-                        c33.6,23.4,53.5,61.3,53.5,102.4C799.7,584.5,743.7,640.5,674.9,640.5z"/>
-                    <path d="M914.3,456.9c0-14.4-11.7-18.2-21-21.2c-11.8-3.8-21.1-6.9-17-25.8c0.7-3.4,1.3-8.1-1.9-10.7c-1.4-1.1-4-2-7.9-0.1
-                        c-11.1,5.4-35.6,36.9-35.6,57.8c0,20.6,9.9,38.5,24.1,46.7v21.9v6.5v137.9c0,4,3.3,7.3,7.3,7.3h19.6c4,0,7.3-3.3,7.3-7.3V532v-6.5
-                        v-21.3C903.9,496.2,914.3,478,914.3,456.9z M881.6,669.6h-19.2V533.1h19.2V669.6z M881.6,524.4h-19.2v-17.5c3.2,1,6.6,1.5,10.1,1.5
-                        c3.1,0,6.1-0.4,9.1-1.2V524.4z M872.6,500.9c-18.9,0-34.2-19.8-34.2-44c0-19,23.2-46.7,30.9-50.8c0,0.6-0.2,1.3-0.4,2.3
-                        c-5.5,25.5,10.4,30.7,22.1,34.5c10.1,3.3,15.8,5.6,15.8,14.1C906.8,481.2,891.4,500.9,872.6,500.9z"/>
-                    <path d="M776,724.7c-7.6,0-13.8,5.6-14.9,12.9h-57c29.5-10.7,51.5-37,56.1-68.9h6.9v-22.1h-22.1v22.1h7.5
-                        c-5.3,34-32.5,60.8-66.7,65.6v-4.1h-22.1v4.1c-34.2-4.8-61.4-31.7-66.7-65.6h5.1v-22.1h-22.1v22.1h9.4
-                        c4.6,31.9,26.6,58.2,56.1,68.9h-62c-1.1-7.3-7.3-12.9-14.9-12.9c-8.3,0-15.1,6.8-15.1,15.1c0,8.3,6.8,15.1,15.1,15.1
-                        c6.4,0,11.9-4.1,14.1-9.7h81v7.3h22.1v-7.3h76c2.2,5.7,7.6,9.7,14.1,9.7c8.3,0,15.1-6.8,15.1-15.1
-                        C791.1,731.4,784.4,724.7,776,724.7z"/>
+                    <use xlink:href="#Illustration"/>
                 </svg>
             </h2>
             <div class="Proyects-text">
@@ -95,19 +73,23 @@
                 <p class="Proyects-p">¿Te apetece ver un poco más?</p>
             </div>
         </div>
+        <!-- Enlace en forma de flecha que te llevará a la siguiente sección -->
         <a class="Proyects-a Arrow-down" href="#container" title="Ir más abajo">
             <svg class="Proyects-svg Arrow-down-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+                <use xlink:href="#Arrow"/>
             </svg>
         </a>
     </section>
 
-    <!-- Sección con información sobre proyectos. Pendiente ampliación -->
-
+    <!-- Sección proyectos diseño web
+     Descripción: esta sección contiene los proyectos relacionados con el diseño web, concretamente 2 proyectos que contienen enlaces externos.
+    -->
     <div class="Container" id="container">
         <div class="Container-wrapper">
             <h2 class="Container-h2">web designer</h2>
+            <!-- Sección con proyectos -->
             <ul class="Container-ul">
+                <!-- Proyecto 1: Demo Stck -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -115,12 +97,14 @@
                             <img src="assets/proyects/web-designer-stock.jpg" alt="Mockup proyecto diseño web - Demo Stck." class="Container-img" loading="lazy">
                         </picture>
                     </div>
+                    <!-- Sección de enlace externo al proyecto -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="https://mariajesusmartin.github.io/Demo-Stck/" class="Container-a" title="Ir a proyecto Demo Stck" target="_blank" rel="noreferrer">Demo Stck.</a>
                         </h3>
                     </div>
                 </li>
+                <!-- Proyecto 2: maría adame -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -128,6 +112,7 @@
                             <img src="assets/proyects/web-designer-maria-adame.jpg" alt="Mockup proyecto diseño web - Portfolio" class="Container-img" loading="lazy">
                         </picture>                   
                     </div>
+                    <!-- Sección de enlace externo al proyecto -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="index.html" class="Container-a" title="Ir a mi proyecto maría adame" target="_blank" rel="noreferrer">maría adame</a>
@@ -137,10 +122,15 @@
             </ul>
         </div>
     </div>
+
+    <!-- Sección proyectos diseño gráfico
+        Descripción: esta sección contiene los proyectos relacionados con el diseño gráfico, concretamente 4 proyectos que contienen enlaces archivos HTML del mismo sitio web.
+    -->
     <div class="Container Container-bg">
         <div class="Container-wrapper">
             <h2 class="Container-h2">graphics designer</h2>
             <ul class="Container-ul">
+                <!-- Proyecto 1: Frutas Borrero Ojuelos -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -148,12 +138,14 @@
                             <img src="assets/proyects/frutas-borrero-ojuelos.jpg" alt="Mockup logotipo Frutas Borrero Ojuelos" class="Container-img" loading="lazy">
                         </picture>     
                     </div>
+                    <!-- Sección de enlace a frutasborrero.html -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="frutasborrero.html" class="Container-a" title="Ir a proyecto Frutas Borrero Ojuelos">Frutas Borrero Ojuelos</a>
                         </h3>
                     </div>
                 </li>
+                <!-- Proyecto 2: Centro Tierra -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -161,12 +153,14 @@
                             <img src="assets/proyects/centro-tierra.jpg" alt="Mockup tarjeta de visita logo Centro Tierra" class="Container-img" loading="lazy">
                         </picture>                   
                     </div>
+                    <!-- Sección de enlace a centrotierra.html -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="centrotierra.html" class="Container-a" title="Ir a proyecto Centro Tierra">Centro Tierra</a>
                         </h3>
                     </div>
                 </li>
+                <!-- Proyecto 3: Packsystem -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -174,12 +168,14 @@
                             <img src="assets/proyects/packsystem.jpg" alt="Mockup bolsa logotipo Packsystem" class="Container-img" loading="lazy">
                         </picture>
                     </div>
+                    <!-- Sección de enlace a packsystem.html -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="packsystem.html" class="Container-a" title="Ir a proyecto Packsystem">Packsystem</a>
                         </h3>
                     </div>
                 </li>
+                <!-- Proyecto 4: maría adame -->
                 <li class="Container-li">
                     <div class="Container-proyect">
                         <picture>
@@ -187,6 +183,7 @@
                             <img src="assets/proyects/maria-adame-marca-personal.jpg" alt="Mockup logotipo maría adame" class="Container-img" loading="lazy">
                         </picture>                    
                     </div>
+                    <!-- Sección de enlace a mariaadame.html -->
                     <div class="Container-text">
                         <h3 class="Container-h3">
                             <a href="mariaadame.html" class="Container-a" title="Ir a proyecto maría adame logo">maría adame</a>
@@ -197,26 +194,105 @@
         </div>
     </div>
 
+    <!-- Pie de página
+        Descripción: en el pie de página hemos incluído Copyright, logotipo en versión más pequeña como etiqueta <img> y enlaces externos a redes sociales 
+    -->
     <footer class="Footer">
+        <!-- Copyright -->
         <div class="Footer-copy">Copyright maria adame 2024</div>
+        <!-- Logotipo en versión pequeña -->
         <picture>
             <img class="Footer-img" src="assets/logo/logo-maria-adame-negativo.png" alt="logotipo maría adame en negativo" loading="lazy">
-        </picture>        <ul class="Footer-ul">
+        </picture>
+        <!-- Enlaces externos a redes sociales -->
+        <ul class="Footer-ul">
             <li class="Footer-li">
                 <a class="Footer-a" href="https://www.instagram.com/adame_digital" title="Ir a Instagram" target="_blank" rel="noreferrer">
                     <svg class="Footer-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        <use xlink:href="#Instagram"/>
                     </svg>
                 </a>
             </li>
             <li class="Footer-li">
                 <a class="Footer-a" href="https://www.linkedin.com/in/mariajesus-martin/" title="Ir a LinkedIn" target="_blank" rel="noreferrer">
                     <svg class="Footer-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        <use xlink:href="#Linkedin"/>
                     </svg>
                 </a>
             </li>
         </ul>
     </footer>
+
+    <!-- Sección de etiquetas svg
+        Descripción: esta sección contienen todos los svg de este HTML añadiendo la etiqueta <symbol>. No están visibles. 
+    -->
+    <svg class="Svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+        <symbol id="Logo-m">
+            <path d="M1039.7,472.2c-26.1-45.8-60.4-81.5-101.9-106.2c-41.6-24.8-86.9-37.3-134.4-37.3c-48.2,0-90.3,9.1-125.2,27
+                c-34.4,17.7-62.6,38.7-83.9,62.5c-13.1,14.6-24.1,28-32.9,40.1c-22.6-37.5-52-67.7-87.7-90c-42.2-26.3-88.7-39.6-138.2-39.6
+                c-60.3,0-109.7,13.8-146.8,40.9c-21.2,15.4-39.2,31.6-53.9,48.3v-77.9H0.6v735h134.3V638.2c0-59.6,17-104.3,52-136.6
+                C222.2,468.9,263,453,311.5,453c46.2,0,83.7,16.3,114.7,49.9c30.8,33.4,46.4,78.5,46.4,133.9v438.2h134.3V638.2
+                c0-59.6,17-104.2,52-136.6C694.3,468.9,735,453,783.6,453c46.2,0,83.7,16.3,114.7,49.9c30.8,33.4,46.4,78.5,46.4,133.9v438.2H1079
+                v-441C1079,572.4,1065.8,518,1039.7,472.2z"/>
+            <rect class="Header-rect" y="5.1" width="1080" height="168.2"/>
+        </symbol>
+    </svg>
+    <svg class="Proyects-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+        <symbol id="Illustration">
+            <rect class="Proyects-rect" x="74" y="217" width="966" height="679"/>
+            <path d="M109.6,636.1v142.6H253V636.1H109.6z M245.5,771.1H117.2V643.6h128.3V771.1z"/>
+            <path d="M262.4,636.1v142.6h143.4V636.1H262.4z M398.3,771.1H270V643.6h128.3V771.1z"/>
+            <path d="M109.6,323.2v142.6h103h165.6H407V323.2H109.6z M153.5,458.2l48.8-59.6l32.6,39.9l-16.1,19.7H153.5z M228.5,458.2
+                l66.9-81.8l66.9,81.8H228.5z M399.5,458.2h-27.4l-76.6-93.7l-55.7,68.1l-37.5-45.9l-58.5,71.6h-26.6V330.7h282.3V458.2z"/>
+            <path d="M981.7,162.8H513.2V35h-11.3v127.8H16.4V842H394l-15.7,77.6H328v26.7h173.8v98.7h11.3v-98.7h166.6v-26.7h-55.1L608.9,842
+                h372.8V162.8z M501.9,182.2v65.4H295.2l-50.9,38.8H35.8V182.2H501.9z M35.8,822.6V293.9h211.1l50.9-38.8h204.1v567.4H35.8z
+                M962.3,822.6H513.2V182.2h449.1V822.6z"/>
+            <circle cx="73.4" cy="232" r="12.1"/>
+            <circle cx="146.1" cy="232" r="12.1"/>
+            <circle cx="218.9" cy="232" r="12.1"/>
+            <polygon points="89.3,522 83.9,516.7 60.9,539.7 83.2,562.1 88.6,556.7 71.6,539.7 	"/>
+            <polygon points="425.4,516.7 420.1,522 437.8,539.7 420.8,556.7 426.1,562.1 448.5,539.7 	"/>
+            <rect x="114.6" y="499.8" width="288.6" height="7.5"/>
+            <rect x="114.6" y="526.5" width="288.6" height="7.5"/>
+            <rect x="114.6" y="553.2" width="288.6" height="7.5"/>
+            <rect x="172.8" y="579.9" width="172.2" height="7.5"/>
+            <path d="M689,353.7h-28.3l-5.2,14.4h-8.9l23.5-64.5h9.8l23.4,64.5h-8.9L689,353.7z M686.6,346.8L674.9,314l-11.7,32.8H686.6z"/>
+            <path d="M752.1,408.3c0.3-0.8,0.4-1.7,0.4-2.6c0-3.4-2.2-6.4-5.3-7.4v-125c3.1-1,5.3-3.9,5.3-7.4c0-4.3-3.5-7.8-7.8-7.8
+                c-3.4,0-6.4,2.2-7.4,5.3h-125c-1-3.1-3.9-5.3-7.4-5.3c-4.3,0-7.8,3.5-7.8,7.8c0,3.4,2.2,6.4,5.3,7.4v125c-3.1,1-5.3,3.9-5.3,7.4
+                c0,0.9,0.2,1.8,0.4,2.6c-34.6,24.9-55.1,64.6-55.1,107.5c0,73,59.4,132.3,132.3,132.3s132.3-59.4,132.3-132.3
+                C807.2,472.8,786.7,433.1,752.1,408.3z M612.4,403.3c-0.8-2.3-2.6-4.2-4.9-4.9v-125c2.3-0.8,4.2-2.6,4.9-4.9h125
+                c0.8,2.3,2.6,4.2,4.9,4.9v125c-2.3,0.8-4.2,2.6-4.9,4.9H612.4z M674.9,640.5c-68.8,0-124.8-56-124.8-124.8
+                c0-41.1,19.9-79,53.5-102.4c0.5,0.1,0.9,0.1,1.4,0.1c3.4,0,6.4-2.2,7.4-5.3h125c1,3.1,3.9,5.3,7.4,5.3c0.5,0,1-0.1,1.4-0.1
+                c33.6,23.4,53.5,61.3,53.5,102.4C799.7,584.5,743.7,640.5,674.9,640.5z"/>
+            <path d="M914.3,456.9c0-14.4-11.7-18.2-21-21.2c-11.8-3.8-21.1-6.9-17-25.8c0.7-3.4,1.3-8.1-1.9-10.7c-1.4-1.1-4-2-7.9-0.1
+                c-11.1,5.4-35.6,36.9-35.6,57.8c0,20.6,9.9,38.5,24.1,46.7v21.9v6.5v137.9c0,4,3.3,7.3,7.3,7.3h19.6c4,0,7.3-3.3,7.3-7.3V532v-6.5
+                v-21.3C903.9,496.2,914.3,478,914.3,456.9z M881.6,669.6h-19.2V533.1h19.2V669.6z M881.6,524.4h-19.2v-17.5c3.2,1,6.6,1.5,10.1,1.5
+                c3.1,0,6.1-0.4,9.1-1.2V524.4z M872.6,500.9c-18.9,0-34.2-19.8-34.2-44c0-19,23.2-46.7,30.9-50.8c0,0.6-0.2,1.3-0.4,2.3
+                c-5.5,25.5,10.4,30.7,22.1,34.5c10.1,3.3,15.8,5.6,15.8,14.1C906.8,481.2,891.4,500.9,872.6,500.9z"/>
+            <path d="M776,724.7c-7.6,0-13.8,5.6-14.9,12.9h-57c29.5-10.7,51.5-37,56.1-68.9h6.9v-22.1h-22.1v22.1h7.5
+                c-5.3,34-32.5,60.8-66.7,65.6v-4.1h-22.1v4.1c-34.2-4.8-61.4-31.7-66.7-65.6h5.1v-22.1h-22.1v22.1h9.4
+                c4.6,31.9,26.6,58.2,56.1,68.9h-62c-1.1-7.3-7.3-12.9-14.9-12.9c-8.3,0-15.1,6.8-15.1,15.1c0,8.3,6.8,15.1,15.1,15.1
+                c6.4,0,11.9-4.1,14.1-9.7h81v7.3h22.1v-7.3h76c2.2,5.7,7.6,9.7,14.1,9.7c8.3,0,15.1-6.8,15.1-15.1
+                C791.1,731.4,784.4,724.7,776,724.7z"/>
+        </symbol>
+    </svg>
+    <svg class="Svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <symbol id="Arrow">
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+        </symbol>
+    </svg>
+    <svg class="Svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <symbol id="Instagram">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </symbol>
+    </svg>
+    <svg class="Svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <symbol id="Linkedin">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </symbol>
+    </svg>
+
 </body>
 </html>

@@ -1,3 +1,22 @@
+/* 
+reset.css
+- reset general
+*/
+
+
+/* reset general
+Descripción: estilos generales para toda la web, relacionadas con textos, imagenes, vídeos...
+Estructura:
+- *
+- li
+- h1 , h2 , h3 , h4 , h5 , h6
+- a
+- img , picture , video , iframe , svg
+- svg
+- html
+- :root
+- Svg
+*/
 *{
     margin: 0;
     padding: 0;
@@ -33,14 +52,25 @@ html{
 }
 :root{
     font-size: 100%;
-    --color-yellow: #ffe006; 
-    --color-purple: #c3c3ff;
+    /* Colores */
+    --color-yellow: #ffe006;    /*color corporativo principal*/
+    --color-purple: #c3c3ff;    /*color corporativo secundario*/
+    --color-darkpurple: #806691; /*color corporativo secundario*/
     --color-black: #000000;
-    --font-h1: 3.75rem;
-    --font-h: 2.5rem;
-    --font-h-mobile: 1.875rem;
+    --color-white: #ffffff;
+
+    /* Tamños tipografías */
+    --font-h1: 3.75rem;   /*tamño para h1*/
+    --font-h: 2.5rem;     /*tamño para otros h*/
+    --font-h-mobile: 1.875rem; /*tamño para otros h en responsive*/
 
 }
 body{
     font-family: "Poppins", sans-serif;
 }
+
+.Svg{
+    display: none;
+}
+
+/* reset general */

@@ -1,4 +1,23 @@
+/* 
+sobremi.css
+- Sección superior .About
+- Sección información principal .Container
+- Sección resumen proyectos .Proyects
+- Responsive
+*/
 
+/* Sección superior
+Descripción: estilos para la sección que encontramos abajo de la cabecera
+Estrutura:
+- About
+- About-container
+- About-h1
+- About-logo
+- About-span
+    - Logo-yellow
+- About-text
+- About-p
+*/
 .About{
     width: 100%;
     margin: auto;
@@ -39,7 +58,6 @@
     }
 }
 
-
 .About-text{
     margin: 1.875rem auto 6.25rem auto;
 }
@@ -47,6 +65,29 @@
     margin: 1.875rem 0;
 }
 
+/* Sección superior */
+
+/* Sección información principal
+Descripción: estilos para la sección principal
+Estructura:
+- Container
+- Container-picture
+- Container-img
+- Container-section
+- Container-ul
+- Container-li
+- Container-title
+- Container-h3
+- Container-buttons
+- Container-button
+    - Container-button--close
+    - Container-button--open.isActive
+- Container-svg
+- Container-text
+    - Container-text.isActive
+- Container-p
+- Container-bullet
+*/
 .Container{
     width: 100%;
     background-color: var(--color-yellow);
@@ -82,7 +123,7 @@
     width: 100%;
     border: 2px solid var(--color-black);
     padding: 1.25rem 1.25rem;
-    background-color: white;
+    background-color: var(--color-white);
 }
 
 .Container-title{
@@ -108,23 +149,23 @@
 .Container-button{
     position: absolute;
     padding: 0 .625rem 0 0;
-    background-color: white;
-}
-
-.Container-svg{
-    width: 1.875rem;
-    fill: var(--color-black);
+    background-color: var(--color-white);
 }
 
 .Container-button--close{
     position: absolute;
-    background-color: white;
+    background-color: var(--color-white);
 }
 
 .Container-button--open.isActive{
     opacity: 0;
     pointer-events: none;
     transition: opacity .5s ease;
+}
+
+.Container-svg{
+    width: 1.875rem;
+    fill: var(--color-black);
 }
 
 .Container-text{
@@ -149,6 +190,14 @@
     list-style-position: inside;
 }
 
+/* Sección información principal 
+Descripción: estilos para la información principal de este sitio web
+Estructura:
+- Proyects
+- Proyects-h3
+- Proyects-p
+- Container
+*/
 .Proyects{
     width: 80%;
     padding: 6.25rem 0;
@@ -169,15 +218,16 @@
 .Proyects-p{
     margin: 3.125rem auto;
 }
+/* Sección información principal */
 
-.Container-svg--none{
-    display: none;
-}
-.Svg{
-    display: none;
-}
-
-
+/* Responsive
+Descripción: estilos para adaptar el contenido a responsive
+Estructura: 
+- Pantallas con max-width 480px
+- Pantallas con max-width 768px
+- Pantallas grandes con min-width 1600px
+- Pantallas grandes con min-width 2000px
+*/
 @media (max-width: 480px){
     .About-logo{
         width: 60%;
@@ -205,8 +255,6 @@
     }
 }
 
-/* Adaptación a pantallas grandes con max-width*/
-
 @media (min-width: 2000px){
     body{
         max-width: 2400px;
@@ -215,3 +263,5 @@
         border-right: 2px solid var(--color-black);
     }
 }
+
+/* Responsive */
