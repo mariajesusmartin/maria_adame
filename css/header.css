@@ -59,7 +59,7 @@ Descripción: estilos para adaptar el contenido a responsive
 Estructura: 
 - Pantallas con max-width 480px
 */
-@media (max-width:480px){
+@media (max-width:768px){
     .Header{
         flex-direction: column;
         gap: 1.25rem;
